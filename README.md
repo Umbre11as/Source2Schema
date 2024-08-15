@@ -6,6 +6,12 @@ _Если че у меня фетиш на const_
 ### Advanced scopes
 Define `SCHEMA_CS2` if you need to parse matchmaking.dll scope
 
+### Features list
+- [X] Parse classes
+- [X] Parse fields
+- [ ] Dump to file
+- [ ] Parse field type
+
 ### Example
 ```cpp
 #include <SchemaSystem.h>
