@@ -117,9 +117,9 @@ private:
 private:
     PVOID vfptr;
     CHAR name[256];
-    PRIVATE_PADDING(0x338);
+    PRIVATE_PADDING(0x340);
     SchemaDeclaredClassEntry* declaredClasses;
-    PRIVATE_PADDING(0xE);
+    PRIVATE_PADDING(0xBC);
     WORD declaredClassesCount;
 };
 
